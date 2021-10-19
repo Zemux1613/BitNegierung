@@ -9,7 +9,7 @@ int main() {
 	int input;
 	scanf_s("%d", &input);
 
-	printf("%d ist negiert %d", input,~(input-1));
+	printf("%d ist negiert %d", input,~(input));
 	return 0;
 
 }
